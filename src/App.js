@@ -37,6 +37,7 @@ function App() {
       <Banner  banner={data.banner}/>
       <Footer footer={data.footer} />
     </Router>
+    
   );
 }
 
