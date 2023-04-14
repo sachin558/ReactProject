@@ -1,0 +1,46 @@
+
+.nav{
+     padding: 1vmax;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+
+    
+
+}
+ #imag{
+     width: 5pc;
+     height: 3pc;
+     display: inline;
+     display: flex; 
+ } 
+ img{
+     transform: translateX(-50px);
+} 
+img :hover{
+     transform: translateX(0);
+} 
+.navlinks{ 
+     text-decoration: none;
+     margin: 0vmax 1.7vmax;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 500;
+     font-size: 1.1vmax;
+}
+.navlinks :hover{
+     color: red;
+}
+.searchbox{
+     position: relative;
+     left: 5vmax;
+     border: none;
+}
+.searchbox>input{
+     border: none;
+     border-bottom: 1px solid rgb(128,128,128 );
+     width: 15vmax;
+     font-size: 1.1vmax;
+     color: rgb(61, 61, 61);
+     outline: none;
+}
